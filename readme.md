@@ -41,3 +41,17 @@
 <br/>
 <br/>
 
+# 학생 페이지
+### 학생 메인 페이지
+![study_index](https://user-images.githubusercontent.com/84568097/187848791-1c32de2a-2f71-413b-b8dc-054f0a0d2d58.PNG)
+<br/>
+<br/>
+<br/>
+
+### 학생 시험 페이지
+* 문제 풀이
+* 시험 점수 확인
+![study_test](https://user-images.githubusercontent.com/84568097/187848953-2b0836cc-3868-42dd-bbfb-4935c39b248a.PNG)
+<br/>
+<br/>
+<br/>
