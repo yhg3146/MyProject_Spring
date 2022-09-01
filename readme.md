@@ -49,6 +49,7 @@
 <br/>
 
 ### 학생 시험 페이지
+* 풀지 않은 시험지 확
 * 문제 풀이
 * 시험 점수 확인
 ![study_test](https://user-images.githubusercontent.com/84568097/187848953-2b0836cc-3868-42dd-bbfb-4935c39b248a.PNG)
