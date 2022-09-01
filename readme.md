@@ -27,7 +27,7 @@
 <br/>
 
 
-# 선생님 
+# 선생님 페이지
 ### 선생님 메인 페이지
 ![teacher_index](https://user-images.githubusercontent.com/84568097/187847708-ce87b432-c09e-4029-b3af-960ff320219f.PNG)
 <br/>
@@ -36,7 +36,7 @@
 ### 선생님 시험지 및 등록 페이지
 * 문제 생성 및 추가
 * 문제 수정 및 삭제
-* ![teacher_problem](https://user-images.githubusercontent.com/84568097/187847929-32c5eb85-a7e4-4184-874e-873ae94f25f8.PNG)
+![teacher_problem](https://user-images.githubusercontent.com/84568097/187847929-32c5eb85-a7e4-4184-874e-873ae94f25f8.PNG)
 <br/>
 <br/>
 <br/>
