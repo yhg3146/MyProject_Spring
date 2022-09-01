@@ -22,11 +22,11 @@
 * 선생님 리스트 조회
 * 학생 리스트 조회
 ![admin_list](https://user-images.githubusercontent.com/84568097/187847055-38ad558f-b9ff-492f-b18e-a53419631821.PNG)
-
 <br/>
 <br/>
 <br/>
 # 선생님 페이지
+---
 
 ### 선생님 메인 페이지
 ![teacher_index](https://user-images.githubusercontent.com/84568097/187847708-ce87b432-c09e-4029-b3af-960ff320219f.PNG)
