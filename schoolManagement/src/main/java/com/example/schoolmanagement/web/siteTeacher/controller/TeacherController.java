@@ -43,7 +43,7 @@ public class TeacherController {
         model.addAttribute("studentCount", userService.countStudentByTeacherUserId(user.getUserId()));
         model.addAttribute("paperTemplateCount", paperTemplateService.countTemplateByUserId(user.getUserId()));
 //        model.addAttribute("paperTemplateCount","1");
-        return "/teacher/index";
+        return "teacher/index";
 
     }
 
@@ -56,7 +56,7 @@ public class TeacherController {
 
         model.addAttribute("studyList", userService.findStudentListByTeacherUserId(user.getUserId()));
 
-        return "/teacher/study/list";
+        return "teacher/study/list";
     }
 
 
@@ -74,7 +74,7 @@ public class TeacherController {
         }).orElseThrow(() -> new AccessDeniedException("시험지가 존재하지 않습니다."));
 
         model.addAttribute("papers", paperService.getPapers(paperTemplateId));
-        return "/teacher/study/results";
+        return "teacher/study/results";
     }
 
     @GetMapping("/paperTemplate/list")
@@ -90,7 +90,7 @@ public class TeacherController {
                 });
 
         model.addAttribute("page", templatePages);
-        return "/teacher/paperTemplate/list";
+        return "teacher/paperTemplate/list";
     }
 
     @GetMapping("/paperTemplate/edit")
@@ -104,7 +104,7 @@ public class TeacherController {
         }
         PaperTemplate paperTemplate = paperTemplateService.findProblemTemplate(paperTemplateId).orElseThrow(() -> new IllegalArgumentException(paperTemplateId + "시험지 템플릿이 존재하지 않습니다."));
         model.addAttribute("template", paperTemplate);
-        return "/teacher/paperTemplate/edit";
+        return "teacher/paperTemplate/edit";
     }
 
     @GetMapping("/paperTemplate/delete")
@@ -126,7 +126,7 @@ public class TeacherController {
 
             );
         }
-        return "redirect:/teacher/paperTemplate/edit?paperTemplateId=" + paperTemplateId;
+        return "redirect:edit?paperTemplateId=" + paperTemplateId;
     }
 
 
@@ -169,7 +169,7 @@ public class TeacherController {
 
         PaperTemplate paperTemplate = paperTemplateService.findById(problemInput.getPaperTemplateId()).get();
         model.addAttribute("template", paperTemplate);
-        return "/teacher/paperTemplate/edit";
+        return "teacher/paperTemplate/edit";
     }
 
     @GetMapping("/paperTemplate/publish")
@@ -181,13 +181,13 @@ public class TeacherController {
         paperService.publishPaper(paperTemplateId, studentList.stream().map(u -> u.getUserId()).collect(Collectors.toList()));
 
 
-        return "redirect:/teacher/paperTemplate/list";
+        return "redirect:list";
     }
 
     @GetMapping("/signup")
     public String signUp() {
 
-        return "/teacher/signup";
+        return "teacher/signup";
 
     }
 /*
@@ -201,7 +201,7 @@ public class TeacherController {
     @GetMapping("/paperTemplate/create")
     public String PaperTemplateCreate(@AuthenticationPrincipal User user, Model model) {
 
-        return "/teacher/paperTemplate/create";
+        return "teacher/paperTemplate/create";
     }
 
 
@@ -215,7 +215,7 @@ public class TeacherController {
 
         PaperTemplate paperTemplate = paperTemplateService.save(template);
         model.addAttribute("template", paperTemplate);
-        return "/teacher/paperTemplate/edit";
+        return "teacher/paperTemplate/edit";
     }
 
 

@@ -41,7 +41,7 @@ public class TeacherSignUpController {
         User saved =userService.save(teacher);
         userService.addAuthority(saved.getUserId(), Authority.ROLE_TEACHER);
         model.addAttribute("site","teacher");
-        return "/loginForm";
+        return "loginForm";
     }
 
 }

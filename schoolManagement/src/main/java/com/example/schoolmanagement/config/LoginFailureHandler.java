@@ -56,13 +56,13 @@ public class LoginFailureHandler implements AuthenticationFailureHandler {
     protected String determineTargetUrl(
             HttpServletRequest request) {
         if(request.getParameter("site").equals("manager")){
-            return "/login?site=manager&error=true";
+            return "login?site=manager&error=true";
         }
         if(request.getParameter("site").equals("teacher")){
-            return "/login?site=teacher&error=true";
+            return "login?site=teacher&error=true";
         }
         if(request.getParameter("site").equals("study")){
-            return "/login?site=study&error=true";
+            return "login?site=study&error=true";
         }
     return "/";
     }

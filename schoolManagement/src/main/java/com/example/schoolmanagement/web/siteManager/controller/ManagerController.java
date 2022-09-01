@@ -22,7 +22,7 @@ public class ManagerController {
         model.addAttribute("schoolCount", schoolService.countAllBySchool());
         model.addAttribute("teacherCount", userService.countAllByAuthorities(Authority.ROLE_TEACHER));
         model.addAttribute("studyCount", userService.countAllByAuthorities(Authority.ROLE_STUDENT));
-        return "/manager/index";
+        return "manager/index";
     }
 
 }

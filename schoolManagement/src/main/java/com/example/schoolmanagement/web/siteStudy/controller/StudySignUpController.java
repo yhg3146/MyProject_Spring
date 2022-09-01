@@ -25,7 +25,7 @@ public class StudySignUpController {
     private String studentSignUp(Model model){
         model.addAttribute("site","study");
         model.addAttribute("cityList",schoolService.cities());
-        return "/study/signup";
+        return "study/signup";
     }
 
 
@@ -50,7 +50,7 @@ public class StudySignUpController {
         );
         User saved =userService.save(student);
         userService.addAuthority(saved.getUserId(), Authority.ROLE_STUDENT);
-        return "/loginForm";
+        return "loginForm";
     }
 
 }

@@ -34,7 +34,7 @@ public class TeacherMngController {
                 ));
 
         model.addAttribute("page",teacherList);
-        return "/manager/teacher/list";
+        return "manager/teacher/list";
 
     }
 

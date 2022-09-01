@@ -42,7 +42,7 @@ public class StudyController {
         model.addAttribute("resultCount",paperService.countPapersResult(user.getUserId()));
 
 
-        return "/study/index";
+        return "study/index";
     }
 
 
@@ -53,7 +53,7 @@ public class StudyController {
             Model model){
         model.addAttribute("menu","papers");
         model.addAttribute("papers",paperService.getPapersByUserIng(user.getUserId()));
-        return "/study/paper/papers";
+        return "study/paper/papers";
     }
 
     @GetMapping("/paper/apply")
@@ -65,7 +65,7 @@ public class StudyController {
         model.addAttribute("menu","paper");
         Paper paper= paperService.findById(paperId).get();
         if(paper.getState() == Paper.PaperState.END){
-            return "redirect:/study/paper/result?paperId="+paperId;
+            return "redirect:result?paperId="+paperId;
         }
 
         Map<Integer, PaperAnswer>  answerMap = paper.answerMap();
@@ -82,7 +82,7 @@ public class StudyController {
         else{
             model.addAttribute("alldone",true);
         }
-        return "/study/paper/apply";
+        return "study/paper/apply";
     }
 
     @PostMapping(value = "/paper/answer",consumes = {"application/x-www-form-urlencoded;charset=UTF-8", MediaType.APPLICATION_FORM_URLENCODED_VALUE})
@@ -93,7 +93,7 @@ public class StudyController {
             ){
 
         paperService.answer(paperId,answer.getProblemId(),answer.getIndexNum(),answer.getAnswer());
-        return "redirect:/study/paper/apply?paperId="+answer.getPaperId();
+        return "redirect:apply?paperId="+answer.getPaperId();
     }
 
     @GetMapping("/paper/done")
@@ -103,7 +103,7 @@ public class StudyController {
             Model model
     ){
         paperService.submit(paperId);
-        return "redirect:/study/paper/apply?paperId="+paperId;
+        return "redirect:apply?paperId="+paperId;
     }
 
     @GetMapping("/paper/result")
@@ -114,7 +114,7 @@ public class StudyController {
         model.addAttribute("menu","result");
         Paper  paper = paperService.findPaper(paperId).orElseThrow(()->new IllegalArgumentException(paperId+"없는 시험지입니다."));
         model.addAttribute("paper",paper);
-        return "/study/paper/result";
+        return "study/paper/result";
     }
 
     @GetMapping("/results")
@@ -125,14 +125,14 @@ public class StudyController {
             Model model){
         model.addAttribute("menu","result");
         model.addAttribute("page",paperService.getPapersByUserResult(user.getUserId(),pageNum,size));
-        return "/study/paper/results";
+        return "study/paper/results";
     }
 
 
 
     @GetMapping("/signup")
     public String signUp(){
-        return "/study/signup";
+        return "study/signup";
     }
 
 

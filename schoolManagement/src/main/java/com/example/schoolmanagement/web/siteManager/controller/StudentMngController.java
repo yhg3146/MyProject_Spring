@@ -34,7 +34,7 @@ public class StudentMngController {
                 ));
 
         model.addAttribute("page",studentDataPage);
-        return "/manager/study/list";
+        return "manager/study/list";
 
     }
 }

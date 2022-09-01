@@ -77,11 +77,11 @@ public class LoginSuccessHandler implements AuthenticationSuccessHandler {
             }
         }
         if(request.getParameter("site").equals("manager")) {
-            return "/manager";
+            return "manager";
         }else if(request.getParameter("site").equals("study")){
-            return "/study";
+            return "study";
         }else if(request.getParameter("site").equals("teacher")){
-            return "/teacher";
+            return "teacher";
         }
         return "/";
     }

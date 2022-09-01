@@ -37,7 +37,7 @@ public class SchoolMngController {
                 }
         );
         model.addAttribute("page",schoolPage);
-        return "/manager/school/list";
+        return "manager/school/list";
     }
 
     @GetMapping("/edit")
@@ -59,6 +59,6 @@ public class SchoolMngController {
     @PostMapping(value = "/save",consumes ={"application/x-www-form-urlencoded;charset=UTF-8",MediaType.APPLICATION_FORM_URLENCODED_VALUE})
     public String schoolSave(School school){
         schoolService.save(school);
-        return "redirect:/manager/school/list";
+        return "redirect:list";
     }
 }
