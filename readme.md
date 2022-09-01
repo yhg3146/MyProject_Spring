@@ -9,7 +9,7 @@
 <br/>
 <br/>
 <br/>
-#관리자 페이지
+# 관리자 페이지
 
 ## 관리자 로그인&메인 페이지
 ![admin_index](https://user-images.githubusercontent.com/84568097/187846854-3c02ac6e-2aa3-4a33-8ece-6b49e11e561c.PNG)
