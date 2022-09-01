@@ -25,7 +25,7 @@
 <br/>
 <br/>
 <br/>
-## 선생님 페이지
+## 관리자 페이지
 
 ### 선생님 메인 페이지
 ![teacher_index](https://user-images.githubusercontent.com/84568097/187847708-ce87b432-c09e-4029-b3af-960ff320219f.PNG)
