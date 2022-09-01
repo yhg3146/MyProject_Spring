@@ -1,15 +1,15 @@
-# 메인로직
+## 메인로직
 ![main_logic](https://user-images.githubusercontent.com/84568097/187846217-3c4344cd-b911-4829-8781-4495b7d94551.PNG)
 <br/>
 <br/>
 <br/>
-# 메인 페이지
+## 메인 페이지
 
 ![signup](https://user-images.githubusercontent.com/84568097/187846630-ae683cd8-acff-4239-bad9-6a90985d569e.PNG)
 <br/>
 <br/>
 <br/>
-# 관리자 페이지
+## 관리자 페이지
 
 ### 관리자 로그인&메인 페이지
 ![admin_index](https://user-images.githubusercontent.com/84568097/187846854-3c02ac6e-2aa3-4a33-8ece-6b49e11e561c.PNG)
@@ -25,8 +25,7 @@
 <br/>
 <br/>
 <br/>
-# 선생님 페이지
----
+## 선생님 페이지
 
 ### 선생님 메인 페이지
 ![teacher_index](https://user-images.githubusercontent.com/84568097/187847708-ce87b432-c09e-4029-b3af-960ff320219f.PNG)
