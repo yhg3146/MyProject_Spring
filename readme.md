@@ -49,10 +49,15 @@
 <br/>
 
 ### 학생 시험 페이지
-* 풀지 않은 시험지 확
+* 풀지 않은 시험지 확인
 * 문제 풀이
 * 시험 점수 확인
 ![study_test](https://user-images.githubusercontent.com/84568097/187848953-2b0836cc-3868-42dd-bbfb-4935c39b248a.PNG)
 <br/>
 <br/>
 <br/>
+
+### 학생 점수 결과 페이지
+* 풀이가 완료된 시험지 확인
+* 시험지 점수 확인
+![study_result](https://user-images.githubusercontent.com/84568097/187849280-9560bf65-6734-48e4-a13e-a52704d98bfb.PNG)
