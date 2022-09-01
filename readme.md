@@ -41,7 +41,7 @@
 <br/>
 <br/>
 
-# 학생 페이지(./schoolManagement/src/main/java/com/example/schoolmanagement/web/siteStudy/controller/)
+# [학생 페이지](./schoolManagement/src/main/java/com/example/schoolmanagement/web/siteStudy/controller/)
 ### 학생 메인 페이지
 ![study_index](https://user-images.githubusercontent.com/84568097/187848791-1c32de2a-2f71-413b-b8dc-054f0a0d2d58.PNG)
 <br/>
