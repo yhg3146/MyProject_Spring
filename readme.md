@@ -9,7 +9,7 @@
 <br/>
 <br/>
 <br/>
-# 관리자 페이지
+# [관리자 페이지](./schoolManagement/src/main/java/com/example/schoolmanagement/web/siteManager/controller/)
 
 ### 관리자 로그인&메인 페이지
 ![admin_index](https://user-images.githubusercontent.com/84568097/187846854-3c02ac6e-2aa3-4a33-8ece-6b49e11e561c.PNG)
@@ -27,7 +27,7 @@
 <br/>
 
 
-# 선생님 페이지
+# [선생님 페이지](./schoolManagement/src/main/java/com/example/schoolmanagement/web/siteTeacher/controller/)
 ### 선생님 메인 페이지
 ![teacher_index](https://user-images.githubusercontent.com/84568097/187847708-ce87b432-c09e-4029-b3af-960ff320219f.PNG)
 <br/>
@@ -41,7 +41,7 @@
 <br/>
 <br/>
 
-# 학생 페이지
+# 학생 페이지(./schoolManagement/src/main/java/com/example/schoolmanagement/web/siteStudy/controller/)
 ### 학생 메인 페이지
 ![study_index](https://user-images.githubusercontent.com/84568097/187848791-1c32de2a-2f71-413b-b8dc-054f0a0d2d58.PNG)
 <br/>
