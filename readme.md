@@ -3,7 +3,7 @@
 <br/>
 <br/>
 <br/>
-# 메인 페이지
+# 메인 페이지<https://github.com/yhg3146/myProject_Spring/tree/main/schoolManagement/src/main/java/com/example/schoolmanagement/controller>
 
 ![signup](https://user-images.githubusercontent.com/84568097/187846630-ae683cd8-acff-4239-bad9-6a90985d569e.PNG)
 <br/>
