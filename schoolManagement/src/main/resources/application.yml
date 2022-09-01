@@ -1,0 +1,30 @@
+server:
+  port: 8000
+
+spring:
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database: mysql
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://schoolmanagement.clpbpfjgis9h.ap-northeast-2.rds.amazonaws.com/school_management?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Seoul
+    username: user
+    password: password
+
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
+
+
+  thymeleaf:
+    prefix: classpath:/templates/
+    cache: false
+    check-template-location: true
+    suffix: .html
+
