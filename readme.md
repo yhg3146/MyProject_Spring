@@ -4,11 +4,13 @@
 <br/>
 <br/>
 <br/>
+
 # [메인 페이지](./schoolManagement/src/main/java/com/example/schoolmanagement/controller/)
 ![signup](https://user-images.githubusercontent.com/84568097/188051214-2cc77f7d-92c3-4fdf-afcd-1957d2bae512.PNG)
 <br/>
 <br/>
 <br/>
+
 # [관리자 페이지](./schoolManagement/src/main/java/com/example/schoolmanagement/web/siteManager/controller/)
 
 ### 관리자 로그인&메인 페이지
