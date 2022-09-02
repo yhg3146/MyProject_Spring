@@ -12,6 +12,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://schoolmanagement.clpbpfjgis9h.ap-northeast-2.rds.amazonaws.com/school_management?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Seoul
+   # url: jdbc:mysql://localhost:3306/school_management?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Seoul
     username: user
     password: password
 
