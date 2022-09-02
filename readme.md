@@ -44,6 +44,19 @@
 <br/>
 <br/>
 
+### 선생님 시험지 배포 페이지
+* 배포를 누르면 담당 학생들에게 시험지가 배포됨
+* 배포 후 시험지 문제 수정, 삭제 불가
+* 배포 후 시험지 문제 추가는 가능
+* 배포 후에 학생들이 시험지를 다 풀고 제출했을 시,<br/>
+ 선생님이 문제를 추가로 더 냈을 때, 시험지 상태는 결과에서 배포로 변경<br/>  
+ 이 때 배포를 누르면 학생들은 추가한 문제에 대해서만 다시 풀이 가능
+![teacher_result](https://user-images.githubusercontent.com/84568097/188052564-c3d162a2-5991-4327-afb7-0d11b7c7e2ba.PNG)
+
+<br/>
+<br/>
+<br/>
+
 # [학생 페이지](./schoolManagement/src/main/java/com/example/schoolmanagement/web/siteStudy/controller/)
 ### 학생 메인 페이지
 ![study_index](https://user-images.githubusercontent.com/84568097/187848791-1c32de2a-2f71-413b-b8dc-054f0a0d2d58.PNG)
