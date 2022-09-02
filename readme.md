@@ -31,9 +31,11 @@
 
 
 # [선생님 페이지](./schoolManagement/src/main/java/com/example/schoolmanagement/web/siteTeacher/controller/)
+
 ### 선생님 메인 페이지
 * 학생 리스트 조회
 * 시험지 리스트 조회
+
 ![teacher_index](https://user-images.githubusercontent.com/84568097/187847708-ce87b432-c09e-4029-b3af-960ff320219f.PNG)
 <br/>
 <br/>
