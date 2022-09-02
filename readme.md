@@ -1,5 +1,6 @@
 # 메인로직
-![main_logic](https://user-images.githubusercontent.com/84568097/188051349-aae3fe62-8907-4505-8526-6e56adce1a0d.PNG)
+![main_logic](https://user-images.githubusercontent.com/84568097/188052178-41cd16df-5aa7-4df1-98d6-c4a8ea83c920.PNG)
+
 
 <br/>
 <br/>
